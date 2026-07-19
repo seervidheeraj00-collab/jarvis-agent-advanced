@@ -1,0 +1,31 @@
+{
+  "agent": {
+    "name": "JARVIS",
+    "version": "2.0",
+    "voice_enabled": false,
+    "dashboard_enabled": true,
+    "max_memory_entries": 1000,
+    "max_conversation_history": 1000
+  },
+  "features": [
+    "Advanced Dashboard",
+    "System Metrics Monitoring",
+    "Conversation History",
+    "Memory Management",
+    "Command Statistics",
+    "Session Analytics"
+  ],
+  "commands": {
+    "help": "Show help menu",
+    "time": "Get current time",
+    "date": "Get current date",
+    "dashboard": "Show advanced dashboard",
+    "status": "System status",
+    "session": "Session information",
+    "remember": "Store memory",
+    "recall": "Retrieve memories",
+    "calculate": "Perform calculations",
+    "weather": "Weather simulation",
+    "exit": "Exit application"
+  }
+}
